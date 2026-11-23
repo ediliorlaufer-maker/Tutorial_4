@@ -9,7 +9,7 @@ Put an `x` in each box that matches your screen: `[ ]` becomes `[x]`. Where it s
 
 The bottom of my Copilot screen says:
 
-- [ ] `sandbox enabled`
+- [x] `sandbox enabled`
 - [ ] something else
 
 ## 2. Test the wall
@@ -17,32 +17,32 @@ The bottom of my Copilot screen says:
 The fake secret (`canary.txt`):
 
 - [ ] Blocked: `Operation not permitted` (Mac)
-- [ ] Blocked: `No such file or directory` (Windows)
+- [x] Blocked: `No such file or directory` (Windows)
 - [ ] It printed the secret
 - [ ] Copilot refused by itself ("I can't …"). Type `/clear` and try again.
 
-Paste the exact line you saw: …
+Paste the exact line you saw: cat: /home/edi/course-canary/secret/canary.txt: No such file or directory
 
 The normal file (`README.md`):
 
-- [ ] It printed `# Tutorial 4: Build the wall`
+- [x] It printed `# Tutorial 4: Build the wall`
 - [ ] It was blocked
 
 My wall works (the secret is blocked, and the normal file works):
 
-- [ ] yes
+- [x] yes
 - [ ] no
 
 ## 3. A hole in the wall
 
 With my mistake, the fake secret:
 
-- [ ] printed
+- [x] printed
 - [ ] was still blocked
 
 After my fix, the fake secret:
 
-- [ ] was blocked again
+- [x] was blocked again
 - [ ] still printed
 
 ## 4. My own rule
